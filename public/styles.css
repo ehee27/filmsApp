@@ -1,0 +1,160 @@
+body {
+  background-color: rgb(214, 214, 214);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-size: 13pt;
+}
+
+/*-------------- Global -----------------*/
+.container {
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;;
+}
+
+button {
+  background-image: linear-gradient(rgb(186, 41, 1),rgb(52, 11, 0)); 
+  color: white;
+  height: 50px;
+  width: 180px;
+  font-size: 16pt;
+  padding: 0 20px 0 20px;
+  border-radius: .3rem;
+  margin-bottom: 15px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  background-image: linear-gradient(rgb(136, 30, 0),rgb(28, 6, 0));
+}
+
+/*--------------- Header --------------------*/
+header {
+  background-image: linear-gradient(rgb(0, 0, 90), rgb(16, 16, 27) );
+  /* background-color: rgb(30, 30, 60); */
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 5px solid rgb(186, 41, 1);
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: .25rem;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #logo {
+  float: left;
+  font-family: 'Bebas Neue', cursive;
+}
+
+header nav {
+  margin-top: 45px;
+  float: right;
+}
+
+header nav a:hover {
+  border: 2pt solid rgb(186, 41, 1);
+  border-radius: .25rem;
+}
+
+.highlight {
+  color: rgb(186, 41, 1);
+}
+/*----------------- Banner ---------------------*/
+#banner {
+  min-height: 400px;
+  text-align: center;
+}
+
+#banner h1 {
+  margin-top: 100px;
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+#banner p {
+  font-size: 16px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+  color: rgb(164, 27, 0);
+  font-size: 35pt;
+  height: 125px;
+}
+
+#banner h3 {
+  font-family: 'Bebas Neue', cursive;
+  color: rgb(176, 56, 0);
+  font-size: 35pt;
+}
+
+/* #banner h3 a{
+  color: rgb(173, 29, 0);
+} */
+#content {
+  margin-bottom: 80px;
+  font-size: 11pt;;
+}
+
+#specs {
+  width: 60%;
+  float: left;
+  margin-top: 50px;
+}
+
+#specs p {
+  color: rgb(84, 84, 84);
+}
+
+#specs .synopsis p{
+  color: black;
+}
+
+#poster {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  padding: 10px;
+  width: 30%;
+  float: right;
+  background-color: rgb(171, 171, 171);
+}
+
+
+
